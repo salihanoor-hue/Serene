@@ -40,7 +40,7 @@ body {
   color: #b38b6d;
 }
 .hero {
-  background-image:url("Images/makeup.jpg");
+  background-image:url("makeup.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -90,4 +90,5 @@ body {
   .nav-links li {
     margin: 10px;
   }
+
 }
