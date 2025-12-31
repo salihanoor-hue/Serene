@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #faf7f5;
+  color: #4a3f3a;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f3e9e5;
+}
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  margin-left: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #4a3f3a;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.nav-links a:hover,
+.nav-links .active {
+  color: #b38b6d;
+}
+.hero {
+  background-image:url("Images/makeup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  max-width: 500px;
+  color: #333333;
+}
+.hero button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  background-color: #b38b6d;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+.hero button:hover {
+  background-color: #9c735a;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    margin: 10px;
+  }
+}
